@@ -1,0 +1,100 @@
+* {padding: 0;
+   margin: 0;
+   font-family: verdana;
+   font-size: 18px;
+   text-decoration: none;
+	
+}
+
+body {background-image: back.jpg;
+      text-align: center;
+}
+div#menu{
+	width: 800px;
+    margin: 90px auto;
+		font-weight: bold;
+}
+
+ul#tart{
+	list-style: none;
+}
+
+ul#tart li{
+	float: left;
+	background: lightblue;
+	width: 150px;
+	margin: 0 2px 0 0;
+}
+
+ul#tart li a{
+	padding: 10px;
+	display: block;
+}
+
+ul#tart li:hover {
+	background: white;
+}
+
+ul#tart li a:hover, a:visited, a:link, a:active {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul#tart li div{
+   display: none;
+   position: absolute;
+   padding: 10px 0 0 0;
+}
+
+ul#tart li div a{
+   display: inline;
+}
+ul#tart li:hover div{
+	display: block;
+}
+ul#tart li:hover div a:hover{
+	text-decoration: underline;
+}
+
+h1 {
+       font-size: 30px;
+	 line-height: 50px;
+}
+
+h2 {
+	 line-height: 30px;
+	  font-size: 25px;
+}
+
+
+table { margin: auto;
+	   
+}
+
+p{font-size: 20px;
+	
+}
+
+table td {border: 1px  solid black;
+}
+#donate {font-size: 20px;
+	     background-color: lightyellow;
+	     border: 2px black;
+}
+.sor {font-weight: bold;
+      	border: 0px
+	
+}
+
+#brot {
+	border: 0px
+}
+#brot2 {
+	border: 0px;
+	vertical-align: top;
+}
+
+#coc {line-height: 100px;
+	
+}
